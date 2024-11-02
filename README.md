@@ -16,3 +16,7 @@ ggg
 ```
 
 ![SRR13313987 biasPlot](https://github.com/user-attachments/assets/851f67de-4733-4109-957e-24003bce5bc8)
+
+![SRR13313990 biasPlot](https://github.com/user-attachments/assets/47cfec77-48c1-45e8-8e84-05ee68f221b2)
+
+![SRR13313993 biasPlot](https://github.com/user-attachments/assets/04aad013-3540-4b65-8083-f45b8e329867)
