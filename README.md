@@ -13,11 +13,7 @@ This analysis is based on the tutorial by the Cebola Lab (https://github.com/Ceb
 ## Visualization 
 
 GC-bias.
-```ggg```
 
-```
-ggg
-```
 Control
 ![SRR13313987 biasPlot](https://github.com/user-attachments/assets/851f67de-4733-4109-957e-24003bce5bc8)
 
