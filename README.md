@@ -26,5 +26,25 @@ UA1061
 
 ![SRR13313990 biasPlot](https://github.com/user-attachments/assets/47cfec77-48c1-45e8-8e84-05ee68f221b2)
 
-## Visualization 
+## Quantification
+
+## Differential expression
+
+![PCA](https://github.com/user-attachments/assets/6fc0c530-924b-452c-a8d7-0a040d751789)
+
+![MA_UA681](https://github.com/user-attachments/assets/6c6048ab-e56c-4ff3-9067-c508047e6c5a)
+
+![MA_UA1061](https://github.com/user-attachments/assets/6d02606f-6ebb-402a-ac0f-d5b327f34392)
+
+![pvalues_UA681](https://github.com/user-attachments/assets/b500d1e7-e995-4ea5-adf2-dd487c545485)
+
+![pvalues_UA1061](https://github.com/user-attachments/assets/93df7ad9-81ff-48c5-afff-779f3929586f)
+
+![fdr_UA681](https://github.com/user-attachments/assets/a5b634f8-1eb4-42d3-ba38-f5a9f3b4751f)
+
+![fdr_UA1061](https://github.com/user-attachments/assets/f6e5f2dd-a74b-47d2-afaf-e4780f590650)
+
+![volcano_UA681](https://github.com/user-attachments/assets/f820e47e-f84e-495b-bff1-342f5ced2fbd)
+
+![pvalues_UA1061](https://github.com/user-attachments/assets/4831a56e-2231-4205-b7a1-1771c56baade)
 
