@@ -117,9 +117,13 @@ Next, we generated MA plots (scatter plot of the log fold-change between a sampl
 
 ![MA_UA1061](https://github.com/user-attachments/assets/6d02606f-6ebb-402a-ac0f-d5b327f34392)
 
+> Distribution of p-values
+
 ![pvalues_UA681](https://github.com/user-attachments/assets/b500d1e7-e995-4ea5-adf2-dd487c545485)
 
 ![pvalues_UA1061](https://github.com/user-attachments/assets/93df7ad9-81ff-48c5-afff-779f3929586f)
+
+> Distribution of false discovery rates (FDR)
 
 ![fdr_UA681](https://github.com/user-attachments/assets/a5b634f8-1eb4-42d3-ba38-f5a9f3b4751f)
 
