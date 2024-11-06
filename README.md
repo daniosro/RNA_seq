@@ -48,4 +48,6 @@ UA1061
 
 ![volcano_UA1061](https://github.com/user-attachments/assets/535a7bcd-f2fa-48f0-8a48-d674649698c4)
 
+![heatmap](https://github.com/user-attachments/assets/01985909-169f-4d30-aa20-e427dd69bbce)
 
+![scatterplot_log2fc](https://github.com/user-attachments/assets/d86916d2-8053-47bd-848b-023d35964ce0)
