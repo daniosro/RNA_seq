@@ -47,7 +47,7 @@ The QC assessment involves the following steps, described in detail in the Cebol
 
 ## Alignment to the reference genome
 
-We downloaded the reference genome for * *Manihot esculenta* * from https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003957885.1/ and indexed it with STAR. 
+We downloaded the reference genome for *Manihot esculenta* from https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003957885.1/ and indexed it with STAR. 
 After indexing, we used Slurm to carry out the alignment from an HPC cluster using STAR. 
 
 ## Post-alignment QC
