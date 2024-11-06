@@ -53,6 +53,11 @@ After indexing, we used Slurm to carry out the alignment from an HPC cluster usi
 
 ## Post-alignment QC
 
+These steps are performed to determine the quality of the genome alignment:
+
+1. Generating QC reports using ```qualimap``` and ```samtools```
+2. Combining the QC reports with ```qualimap multi-bamqc``` 
+
 ![Genome Fraction Coverage](https://github.com/user-attachments/assets/4f5d8457-3527-4b1a-bf4f-bc613ae5fcdd)
 
 ![Insert Size Histogram](https://github.com/user-attachments/assets/a15d8fe3-b7a7-40fa-9cec-83adf0d13572)
