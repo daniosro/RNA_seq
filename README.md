@@ -1,5 +1,5 @@
 # RNA-seq
-Analysis of RNA-seq data of cassava (Manihot esculenta) plants infected with Xanthomonas phaseoli pv. manihotis from Zárate-Chaves et al. (2021).
+Analysis of RNA-seq data of cassava (*Manihot esculenta*) plants infected with *Xanthomonas phaseoli* pv. manihotis from Zárate-Chaves et al. (2021).
 This analysis is based on the tutorial by the Cebola Lab (https://github.com/CebolaLab/RNA-seq).
 
 ## Introduction
