@@ -2,6 +2,32 @@
 Analysis of RNA-seq data of cassava (Manihot esculenta) plants infected with Xanthomonas phaseoli pv. manihotis from Zárate-Chaves et al. (2021).
 This analysis is based on the tutorial by the Cebola Lab (https://github.com/CebolaLab/RNA-seq).
 
+## Introduction
+
+The first part of this analysis must be run in the terminal, by first creating an appropriate environment. In this case, we will create an environment called RNA-seq and install the required programs using Anaconda:
+
+```
+#Create environment
+conda create -N RNA-seq
+
+#Install required programs
+conda install -n RNA-seq -c bioconda fastqc
+conda install -n RNA-seq -c bioconda fastp
+conda install -n RNA-seq -c bioconda multiqc
+conda install -n RNA-seq -c bioconda star
+conda install -n RNA-seq -c bioconda samtools
+conda install -n RNA-seq -c bioconda deeptools
+conda install -n RNA-seq -c bioconda salmon
+conda install -n RNA-seq -c bioconda qualimap
+conda install -n RNA-seq -c bioconda gffread
+
+#For differential expression using DESeq2
+conda create --name DEseq2 r-essentials r-base
+
+conda install -n DEseq2 -c bioconda bioconductor-deseq2
+conda install -n DEseq2 -c bioconda bioconductor-tximport 
+conda install -n DEseq2 -c r r-ggplot2 
+
 ## Pre-alignment QC
 
 ## Post-alignment QC
