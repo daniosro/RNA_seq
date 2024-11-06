@@ -90,14 +90,19 @@ Salmon is here used with the variational Bayesian expectation minimisation (VSEM
 
 ## Differential expression
 
-All the following code is run in R. 
+All the following code is run in R, and is included in the script RNA-seq_analysis.R
 
 The differential expression analysis contains the following steps:
 
 * Import count data
 * Import data to DEseq2
-* Differential gene expression
-* QC plots
+* Determining the differential gene expression
+* Generating QC plots before moving on to functional analysis
+
+### QC plots
+
+We generated a principal component analysis (PCA) plot to determine if the biological replicates clustered together:
+  
 ![PCA](https://github.com/user-attachments/assets/6fc0c530-924b-452c-a8d7-0a040d751789)
 
 ![MA_UA681](https://github.com/user-attachments/assets/6c6048ab-e56c-4ff3-9067-c508047e6c5a)
