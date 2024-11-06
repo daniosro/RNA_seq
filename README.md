@@ -66,7 +66,7 @@ Below we include two example plots from the output of ```multi-bamqc```, where w
 
 ## Visualization 
 
-GC-bias.
+We computed the guanine-citosine (GC) bias of the sequences, which may happen during PCR amplification due to the preferential amplification of specific DNA fragments. We used ```samtools computeGCBias```. We observed a bimodal distribution of the GC bias in all of our samples. Examples for 1 replicate of each treatment are included below:
 
 Control
 
