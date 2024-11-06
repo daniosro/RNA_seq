@@ -29,7 +29,27 @@ conda install -n DEseq2 -c bioconda bioconductor-tximport
 conda install -n DEseq2 -c r r-ggplot2 
 ```
 
-## Pre-alignment QC
+## Pre-alignment Quality Control (QC)
+
+For the quality control assessment, the first step is to activate the previously created environment with the installed packages:
+
+```
+#Activate environment
+conda activate RNA-seq
+```
+
+The QC assessment involves the following steps, described in detail in the Cebola Lab tutorial:
+
+1. Generating a QC report for each sample
+2.  Extracting the total number of reads from the QC report
+3.  Trimming
+4.  Repeating the QC report with fastQC to assess sequence quality after trimming
+
+## Alignment to the reference genome
+
+We downloaded the reference genome for \textit{Manihot esculenta} from https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003957885.1/![image](https://github.com/user-attachments/assets/dd5e0232-3598-435c-854f-ae8ee8195d39)
+ and indexed it with STAR. 
+After indexing, we used Slurm to carry out the alignment from an HPC cluster using STAR. 
 
 ## Post-alignment QC
 
