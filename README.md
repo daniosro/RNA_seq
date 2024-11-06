@@ -66,7 +66,7 @@ Below we include two example plots from the output of ```multi-bamqc```, where w
 
 ## Visualization 
 
-We computed the guanine-citosine (GC) bias of the sequences, which may happen during PCR amplification due to the preferential amplification of specific DNA fragments. We used ```samtools computeGCBias```. We observed a bimodal distribution of the GC bias in all of our samples. Examples for 1 replicate of each treatment are included below:
+We computed the guanine-citosine (GC) bias of the sequences, which may happen during PCR amplification due to the preferential amplification of specific DNA fragments. We used ```samtools computeGCBias```. We observed a bimodal distribution of the GC bias in all of our samples. Representative examples for 1 replicate of each treatment are included below:
 
 Control
 
@@ -80,10 +80,24 @@ UA1061
 
 ![SRR13313990 biasPlot](https://github.com/user-attachments/assets/47cfec77-48c1-45e8-8e84-05ee68f221b2)
 
+The bias was corrected with ```correctGCBias```, which removes reads from regions with greater than expected coverage (GC-rich regions) and adds reads from regions with less-than-expected coverage (AT-rich regions).
+
 ## Quantification
+
+```Salmon``` was used to generate a transcriptome from the genome files and a matrix of gene counts from the star alignment to the transcriptome. 
+
+Salmon is here used with the variational Bayesian expectation minimisation (VSEM) algorithm for quantification. Quanitifcation is described in the 2020 paper by Deschamps-Francoeur et al., which describes the handling of multi-mapped reads in RNA-seq data. Here, Salmon is run without any normalisation, on each technical replicate; samples are combined and normalised in the next steps.
 
 ## Differential expression
 
+All the following code is run in R. 
+
+The differential expression analysis contains the following steps:
+
+* Import count data
+* Import data to DEseq2
+* Differential gene expression
+* QC plots
 ![PCA](https://github.com/user-attachments/assets/6fc0c530-924b-452c-a8d7-0a040d751789)
 
 ![MA_UA681](https://github.com/user-attachments/assets/6c6048ab-e56c-4ff3-9067-c508047e6c5a)
