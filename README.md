@@ -27,6 +27,7 @@ conda create --name DEseq2 r-essentials r-base
 conda install -n DEseq2 -c bioconda bioconductor-deseq2
 conda install -n DEseq2 -c bioconda bioconductor-tximport 
 conda install -n DEseq2 -c r r-ggplot2 
+```
 
 ## Pre-alignment QC
 
