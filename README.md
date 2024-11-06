@@ -101,7 +101,7 @@ The differential expression analysis contains the following steps:
 
 ### QC plots
 
-#### PCA plot
+> PCA plot
 We generated a principal component analysis (PCA) plot to determine if the biological replicates clustered together:
 
 ![PCA](https://github.com/user-attachments/assets/6fc0c530-924b-452c-a8d7-0a040d751789)
