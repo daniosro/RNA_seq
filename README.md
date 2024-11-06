@@ -56,7 +56,9 @@ After indexing, we used Slurm to carry out the alignment from an HPC cluster usi
 These steps are performed to determine the quality of the genome alignment:
 
 1. Generating QC reports using ```qualimap``` and ```samtools```
-2. Combining the QC reports with ```qualimap multi-bamqc``` 
+2. Combining the QC reports with ```qualimap multi-bamqc```
+
+Below we include two example plots from the output of ```multi-bamqc```, where we can see the genome fraction coverage of each sample and the distribution of sizes of the inserts.
 
 ![Genome Fraction Coverage](https://github.com/user-attachments/assets/4f5d8457-3527-4b1a-bf4f-bc613ae5fcdd)
 
