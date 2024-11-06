@@ -102,8 +102,10 @@ The differential expression analysis contains the following steps:
 ### QC plots
 
 We generated a principal component analysis (PCA) plot to determine if the biological replicates clustered together:
+
 ![PCA](https://github.com/user-attachments/assets/6fc0c530-924b-452c-a8d7-0a040d751789)
-As we can see from the PCA plot, sample 1 corresponding to the control, and sample 9 corresponding to a biological replicate of the inoculation with UA681 are outliers, so these samples were excluded from the subsequent analyses. 
+
+As we can see from the PCA plot, sample 1, which corresponds to the control, and sample 9, which corresponds to a biological replicate of the inoculation with UA681, are outliers, so these samples were excluded from the subsequent analyses. 
 
 ![MA_UA681](https://github.com/user-attachments/assets/6c6048ab-e56c-4ff3-9067-c508047e6c5a)
 
