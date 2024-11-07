@@ -123,11 +123,15 @@ Next, we generated MA plots (scatter plot of the log fold-change between a sampl
 
 ![pvalues_UA1061](https://github.com/user-attachments/assets/93df7ad9-81ff-48c5-afff-779f3929586f)
 
+We can see that there is an enrichment of genes that are differentially expressed based on p-value (<0.05).
+
 > Distribution of false discovery rates (FDR)
 
 ![fdr_UA681](https://github.com/user-attachments/assets/a5b634f8-1eb4-42d3-ba38-f5a9f3b4751f)
 
 ![fdr_UA1061](https://github.com/user-attachments/assets/f6e5f2dd-a74b-47d2-afaf-e4780f590650)
+
+The false discovery rate (FDR) is the expected proportion of false discoveries (genes declared differentially expressed incorrectly).
 
 ![volcano_UA681](https://github.com/user-attachments/assets/f820e47e-f84e-495b-bff1-342f5ced2fbd)
 
