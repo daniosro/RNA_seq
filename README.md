@@ -131,7 +131,7 @@ We can see that there is an enrichment of genes that are differentially expresse
 
 ![fdr_UA1061](https://github.com/user-attachments/assets/f6e5f2dd-a74b-47d2-afaf-e4780f590650)
 
-The false discovery rate (FDR) is the expected proportion of false discoveries (genes declared differentially expressed incorrectly).
+The false discovery rate (FDR) is the expected proportion of false discoveries (genes declared differentially expressed incorrectly). In this case, there is a high frequency of reads with an adjusted p-value < 0.05, indicating that most reads have a lowerwill be false positives
 
 ![volcano_UA681](https://github.com/user-attachments/assets/f820e47e-f84e-495b-bff1-342f5ced2fbd)
 
