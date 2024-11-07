@@ -135,7 +135,7 @@ The false discovery rate (FDR) is the expected proportion of false discoveries (
 
 > Volcano plots
 
-Volcano plots are scatterplots which plot the p-value of differential expression against the fold-change. 
+Volcano plots are scatterplots that plot the p-value of differential expression against the fold-change. In this case, the cutoffs used for differential expression are p-value<0.05 and a fold-change greater than 2.
 
 ![volcano_UA681](https://github.com/user-attachments/assets/f820e47e-f84e-495b-bff1-342f5ced2fbd)
 
