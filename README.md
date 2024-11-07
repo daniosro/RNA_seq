@@ -141,12 +141,12 @@ Volcano plots are scatterplots that plot the p-value of differential expression 
 
 ![volcano_UA1061](https://github.com/user-attachments/assets/535a7bcd-f2fa-48f0-8a48-d674649698c4)
 
-> Heatmap
-
-![heatmap](https://github.com/user-attachments/assets/01985909-169f-4d30-aa20-e427dd69bbce)
-
-> Scatterplot comparing differential expression between treatments inoculated with UA681 and UA1061
+> Scatterplot comparing differential expression between treatments inoculated with UA681 and UA1061. The plot shows the shared differentially upregulated genes (DUGs) in blue and differentially down-regulated genes (DDGs) in red.
 
 ![scatterplot_log2fc](https://github.com/user-attachments/assets/d86916d2-8053-47bd-848b-023d35964ce0)
+
+> Heatmap comparing the DUGs and DDGs between treatments.
+
+![heatmap](https://github.com/user-attachments/assets/01985909-169f-4d30-aa20-e427dd69bbce)
 
 ## Functional analysis
