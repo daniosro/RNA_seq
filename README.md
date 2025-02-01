@@ -150,3 +150,7 @@ Volcano plots are scatterplots that plot the p-value of differential expression 
 ![heatmap](https://github.com/user-attachments/assets/01985909-169f-4d30-aa20-e427dd69bbce)
 
 ## Functional analysis
+
+We used topGO (https://bioconductor.org/packages/release/bioc/manuals/topGO/man/topGO.pdf) to perform a Gene Ontology (GO) term enrichment analysis (Fisher’s test, α = 0.01) on shared DEGs. We have included this analysis in the script topGO.R.
+
+We obtained the following plot for cassava plants inoculated with UA1061 which shows the categories that have the most differential transcriptional activity between cellular component (CC), molecular function (MF) and biological process (BP).
